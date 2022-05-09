@@ -512,7 +512,7 @@ p {
     right: 0;
   }
   .education .contentRight img {
-    margin-top: 1.5rem;
+    margin-top: 1.75rem;
     height: 9rem;
     z-index: 1;
   }
@@ -729,17 +729,20 @@ ul {
   .blog .box {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    /* grid-gap: 3px; */
+    grid-gap: 5px;
     width: 100%;
-    height: 100%;
+    /* height: 100%; */
     margin: auto;
   }
   .blog .img {
     width: 100%;
-    height: 11rem;
+    height: 12.5rem;
     object-fit: contain;
     margin: auto;
   }
+  /* .blog img {
+    width: 100%;
+  } */
 }
 
 .contact .content svg {
