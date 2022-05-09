@@ -507,14 +507,14 @@ p {
     display: flex;
     margin: auto;
     position: absolute;
-    top: -25%;
+    top: -20%;
     left: 0;
     right: 0;
   }
   .education .contentRight img {
-    margin-top: 2rem;
-    height: 7rem;
+    height: 6rem;
     z-index: 1;
+    background: red;
   }
   .education .contentLeft {
     padding: 0;
