@@ -457,11 +457,11 @@ p {
     left: 0;
     right: 0;
   }
-  /* .creative .contentRight img {
-    height: 100%;
-    width: 20rem;
+  .creative .contentRight img {
+    height: 10rem;
+    width: 100%;
     object-fit: contain;
-  } */
+  }
 }
 
 .education .box {
@@ -589,9 +589,10 @@ p {
   .work .box h3 {
     text-align: center;
     width: 100%;
+    font-weight: bold;
   }
   .work .box p {
-    font-size: 16px;
+    font-size: 14px !important;
     text-align: left;
   }
 }
@@ -706,7 +707,7 @@ ul {
   }
   .award .img img {
     width: 36vw !important;
-    height: 28vh;
+    height: 30vh;
     object-fit: cover;
   }
   .award .contentLeft p {
