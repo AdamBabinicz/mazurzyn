@@ -106,7 +106,7 @@ export const portfolio = [
     p2: "W porankową cichą porę:",
     p3: "Złote jabłka otrząsnęli",
     p4: "Złote liście, złotą korę.",
-    // p5: "",
+    link: "//www.journals.polon.uw.edu.pl/index.php/pfl/article/view/549",
   },
   {
     id: 2,
@@ -118,7 +118,7 @@ export const portfolio = [
     p2: "Po majowej biegać łące,",
     p3: "Pod zielonych wierzb warkocze;",
     p4: "Piękną Różę kochać tkliwie,",
-    p5: "Patrzeć w oczy jej palące",
+    link: "//pl.wikipedia.org/wiki/Pomnik_Stanis%C5%82awa_Bechiego_we_W%C5%82oc%C5%82awku",
   },
   {
     id: 3,
@@ -130,7 +130,7 @@ export const portfolio = [
     p2: "Kto westchnie za ciebie?",
     p3: "Nad grobem samotnie,",
     p4: "Konik nóżką grzebie.",
-    p5: "Oczy jakby łzawe,",
+    link: "//www.rp.pl/historia/art9312481-lafayette-bohater-dwoch-swiatow",
   },
   {
     id: 4,
@@ -142,7 +142,7 @@ export const portfolio = [
     p2: "Że widząc te niwy,",
     p3: "Choć człowiek ubogi,",
     p4: "A jednak szczęśliwy",
-    // p5: "",
+    link: "//polskie-cmentarze.pl/pl/Ciekawe-miejsca/Wojewodztwo-Malopolskie/Powiat-m.-Krakow/Gmina-M.-Krakow/Krakow/Krypta-Zasluzonych-na-Skalce-w-Kosciele-Ojcow-Paulinow-Krakow",
   },
 ];
 export const award = [

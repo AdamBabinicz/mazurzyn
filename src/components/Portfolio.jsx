@@ -54,10 +54,16 @@ const Portfolio = () => {
                           {val.p5}
                         </li> */}
                       </ul>
-                      <button className="primary-btn">
-                        Więcej
-                        <FaArrowRight />
-                      </button>
+
+                      <a
+                        href={val.link}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <button className="primary-btn">
+                          Więcej <FaArrowRight />
+                        </button>
+                      </a>
                     </div>
                   </div>
                 </>

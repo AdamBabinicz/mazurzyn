@@ -1,9 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
 import { FaArrowRight } from "react-icons/fa";
 import { about } from "../dummydata";
 import Common from "./common/Common";
+import Modal from "./Portal/Modal";
 
 const About = () => {
+  const [modal, setModal] = useState(false);
+  const Toggle = () => setModal(!modal);
+
   return (
     <>
       <section className="about" id="życiorys">
@@ -50,9 +54,28 @@ const About = () => {
                         <h4 className="h2Top">Narodowość :</h4>
                         <h4>{nation}</h4>
                       </div>
-                      <button className="primary-btn">
+                      <button className="primary-btn" onClick={() => Toggle()}>
                         Czytaj <FaArrowRight />
                       </button>
+                      <Modal
+                        show={modal}
+                        close={Toggle}
+                        title="Krótki życiorys"
+                      >
+                        <p>
+                          Pochodził z drobnoszlacheckiej rodziny Lenartowiczów
+                          herbu Pobóg. Był synem Karola, mistrza murarskiego (w
+                          przeszłości uczestnika insurekcji kościuszkowskiej) i
+                          Marii Kwasieborskiej herbu Cholewa. Ożenił się z Zofią
+                          Szymanowską herbu Młodzian (zm. 1870), przyrodnią
+                          siostrą Celiny Szymanowskiej, żony Adama Mickiewicza z
+                          którą miał syna Jana.
+                        </p>
+                        <br />
+                        <p>
+                          <em>pl.wikipedia.org/wiki/Teofil_Lenartowicz</em>
+                        </p>
+                      </Modal>
                     </div>
                     <div className="contentRight">
                       <div className="heading">
