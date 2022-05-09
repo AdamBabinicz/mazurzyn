@@ -513,7 +513,7 @@ p {
   }
   .education .contentRight img {
     margin-top: 1.9rem;
-    height: 9rem;
+    height: 8rem;
     z-index: 1;
   }
   .education .contentLeft {
@@ -736,7 +736,7 @@ ul {
   }
   .blog .img {
     width: 100%;
-    height: 12rem;
+    height: 11.5rem;
     object-fit: contain;
     margin: auto;
   }
