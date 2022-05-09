@@ -512,7 +512,7 @@ p {
     right: 0;
   }
   .education .contentRight img {
-    margin-top: 1rem;
+    margin-top: 1.5rem;
     height: 9rem;
     z-index: 1;
   }
@@ -774,6 +774,9 @@ form p {
   .contact .contentRight img {
     margin-top: 0.5rem;
     height: 7rem;
+  }
+  .contact .primary-btn {
+    margin-bottom: 2rem;
   }
 }
 
