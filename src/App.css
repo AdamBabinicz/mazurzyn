@@ -728,16 +728,16 @@ ul {
   }
   .blog .box {
     display: grid;
-    grid-template-columns: 1fr;
-    grid-gap: 3px;
+    grid-template-columns: repeat(2, 1fr);
+    /* grid-gap: 3px; */
     width: 100%;
     height: 100%;
     margin: auto;
   }
   .blog .img {
-    width: 60%;
-    height: 6rem;
-    object-fit: cover;
+    width: 100%;
+    height: 11rem;
+    object-fit: contain;
     margin: auto;
   }
 }
