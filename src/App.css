@@ -658,8 +658,9 @@ ul {
   } */
   .portfolio .contentRight img {
     /* display: flex;
-    align-items: center;
-    height: 100%; */
+    align-items: center; */
+    object-fit: cover;
+    height: 100%;
   }
   .portfolio .contentLeft {
     background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6));
