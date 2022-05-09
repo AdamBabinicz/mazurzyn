@@ -456,10 +456,11 @@ p {
     top: -15%;
     left: 0;
     right: 0;
-    height: 8rem;
   }
   /* .creative .contentRight img {
-    margin-top: 1rem;
+    height: 100%;
+    width: 20rem;
+    object-fit: contain;
   } */
 }
 
@@ -697,9 +698,14 @@ ul {
     margin-top: 1rem;
     height: 7rem;
   } */
+  .award .contentRight img {
+    margin-top: 1rem;
+    height: 8rem;
+    object-fit: contain;
+  }
   .award .img img {
     width: 36vw !important;
-    height: 30vh;
+    height: 28vh;
     object-fit: cover;
   }
   .award .contentLeft p {
