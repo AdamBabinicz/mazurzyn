@@ -138,7 +138,7 @@ header ul li a {
 
 @media screen and (max-width: 768px) {
   .nav-links-sidebar {
-    top: 55px;
+    top: 50px;
   }
   .container {
     width: 100%;
@@ -512,6 +512,7 @@ p {
     right: 0;
   }
   .education .contentRight img {
+    margin-top: 1rem;
     height: 9rem;
     z-index: 1;
   }
