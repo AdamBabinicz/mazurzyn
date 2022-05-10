@@ -29,18 +29,14 @@ const Creative = () => {
                       </button>
                       <Modal show={modal} close={Toggle} title="Twórczość">
                         <p>
-                          Poza tym Lenartowicz napisał między innymi: „Dwaj
-                          Towiańczycy”, w którym opisuje śmierć Michała
-                          Szweycera (przez pomyłkę nazywając go Ludwikiem
-                          Szwejcerem) i Adolfa Rozwadowskiego, „Moje strony”,
-                          „Rosła kalina” („z liściem szerokim (...)”, niezwykle
-                          popularna z muzyką Ignacego Komorowskiego),
-                          „Tęsknota”, „Wiersz do poezji”, „Duch sieroty”, „Jan
-                          Kochanowski”, „Lirnik. Baśń”, „Łzy”, „Czajka”,
-                          „Pustota”, „O powrocie do kraju”, „Zaproszenie”,
-                          „Staruszek”; poemat liryczno-epicki „Bitwa
-                          racławicka”, ukończony w r. 1858, a w rok później
-                          wydany w Paryżu.
+                          Inne utwory: „Dwaj Towiańczycy”, w którym opisuje
+                          śmierć Michała Szweycera i Adolfa Rozwadowskiego,
+                          „Moje strony”, „Rosła kalina”, „Tęsknota”, „Wiersz do
+                          poezji”, „Duch sieroty”, „Jan Kochanowski”, „Lirnik.
+                          Baśń”, „Łzy”, „Czajka”, „Pustota”, „O powrocie do
+                          kraju”, „Zaproszenie”, „Staruszek”; poemat
+                          liryczno-epicki „Bitwa racławicka”, ukończony w r.
+                          1858.
                         </p>
                         <br />
                         <p>
