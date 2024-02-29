@@ -16,6 +16,7 @@ const About = () => {
             <Common title="Życiorys" />
             {about.map((data) => {
               const {
+                id,
                 name,
                 herb,
                 phone,
@@ -28,7 +29,7 @@ const About = () => {
               } = data;
               return (
                 <>
-                  <div className="content flex">
+                  <div key={id} className="content flex">
                     <div className="contentLeft">
                       <div className="details flex">
                         <h4 className="h2Top">Imię i Nazwisko :</h4>

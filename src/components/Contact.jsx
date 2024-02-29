@@ -57,43 +57,31 @@ const Contact = () => {
                     żony Celiny, swojej przyrodniej siostry. Namalowała m.in.
                     portret Adama Mickiewicza.
                   </p>
-                  {/* <input type="text" placeholder="* YOUR NAME" name="" id="" />
-                  <input type="text" placeholder="* YOUR EMAIL" name="" id="" />
-                  <input
-                    type="text"
-                    placeholder="* WHAT ARE YOU INTERSTED IN?  "
-                    name=""
-                    id=""
-                  />
-                  <textarea cols="30" rows="10">
-                    YOUR MESSAGE
-                  </textarea> */}
-                  <button className="primary-btn" onClick={() => Toggle()}>
-                    Więcej <FaArrowRight />
-                  </button>
-                  <Modal
-                    show={modal}
-                    close={Toggle}
-                    title="Okoliczności ślubu Lenartowiczów"
-                  >
-                    <p>
-                      W maju 1861 roku Teofil i Zofia postanowili wziąć ślub.
-                      Nie pałali do siebie wielką miłością, ale stwierdzili, że
-                      razem będzie im lepiej niż osobno. Z czasem jednak
-                      zbliżyli się do siebie mocniej, co poskutkowało
-                      narodzinami syna, Jana, który zmarł krótko po porodzie.
-                      Niedługo później Zofia, zmagająca się z gruźlicą
-                      zachorowała na zapalenie płuc, na które ostatecznie zmarła
-                      w 1870 roku.
-                    </p>
-                    <br />
-                    <p>
-                      <em>
-                        paryskiesalonyromantykow.wordpress.com/zofia-szymanowska-lenartowicz
-                      </em>
-                    </p>
-                  </Modal>
                 </form>
+                <button className="primary-btn" onClick={() => Toggle()}>
+                  Więcej <FaArrowRight />
+                </button>
+                <Modal
+                  show={modal}
+                  close={Toggle}
+                  title="Okoliczności ślubu Lenartowiczów"
+                >
+                  <p>
+                    W maju 1861 roku Teofil i Zofia postanowili wziąć ślub. Nie
+                    pałali do siebie wielką miłością, ale stwierdzili, że razem
+                    będzie im lepiej niż osobno. Z czasem jednak zbliżyli się do
+                    siebie mocniej, co poskutkowało narodzinami syna, Jana,
+                    który zmarł krótko po porodzie. Niedługo później Zofia,
+                    zmagająca się z gruźlicą zachorowała na zapalenie płuc, na
+                    które ostatecznie zmarła w 1870 roku.
+                  </p>
+                  <br />
+                  <p>
+                    <em>
+                      paryskiesalonyromantykow.wordpress.com/zofia-szymanowska-lenartowicz
+                    </em>
+                  </p>
+                </Modal>
               </div>
             </div>
           </div>

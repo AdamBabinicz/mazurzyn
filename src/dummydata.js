@@ -23,6 +23,7 @@ export const homedata = [
 ];
 export const about = [
   {
+    id: 1,
     name: "Teofil Aleksander Lenartowicz ",
     herb: "Pobóg",
     phone:

@@ -4,7 +4,7 @@ import { FaTimes } from "react-icons/fa";
 import { GiWheat, GiSwirlString } from "react-icons/gi";
 
 const Nav = () => {
-  const [sidebar, setSibebar] = useState(false);
+  const [sidebar, setSidebar] = useState(false);
 
   return (
     <>
@@ -16,14 +16,14 @@ const Nav = () => {
             </h1>
           </div>
           <nav>
-            <button className="toggle" onClick={() => setSibebar(!sidebar)}>
+            <button className="toggle" onClick={() => setSidebar(!sidebar)}>
               {sidebar ? <FaTimes /> : <GoThreeBars />}
             </button>
             <ul
               className={
                 sidebar ? "nav-links-sidebar active" : "nav-links-sidebar "
               }
-              onClick={() => setSibebar(false)}
+              onClick={() => setSidebar(false)}
             >
               <li>
                 <a href="/">Start</a>
